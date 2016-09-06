@@ -1,0 +1,8 @@
+| Группа | № | Имя                  | Email                       | Github            |
+|--------+---+----------------------+-----------------------------+-------------------|
+|        |   | Сухарев Александр    | sukharevmail@gmail.com      | elexus            |
+|    312 |   | Баранчиков Максим    | baranchikov.maxim@gmail.com | baranchikov-maxim |
+|    312 |   | Аида Кенесова        | kenesova-2016@mail.ru       | kenessova         |
+|    312 |   | Фатима Яралиева      | fatima.yaraliyeva@gmail.com | Fatima-cmc        |
+|    312 |   | Алексей Павлов       | lexus.msu@gmail.com         | olexsha           |
+|        |   | Александр Пархоменко | a.parkhomenko@corp.mail.ru  | alex0parhomenko   |

@@ -1,0 +1,21 @@
+#+TITLE: Практикум 3 курс. Осень 16-17
+#+AUTHOR: Артем Пьяных
+#+LATEX_HEADER: \usepackage[T2A]{fontenc}
+#+LATEX_HEADER: \usepackage[english, russian]{babel}
+#+LANGUAGE: ru
+#+OPTIONS: ':t toc:2
+
+* Полезные ресурсы
+** Python
+- [[https://www.codecademy.com/][Codecademy]] --- онлайн платформа с вводными курсами по различным языкам программирования, в том числе Python
+- [[https://www.scipy.org/][SciPy]] --- библиотека методов для научных вычислений, в том числе численного интегрирования и оптимизации
+- [[http://www.numpy.org/][NumPy]] --- библиотека для работы с матрицами
+- [[http://pandas.pydata.org/][Pandas]] --- библиотека для работы со структурированными данными
+- [[http://matplotlib.org/][Matplotlib]] --- библиотека для работы с графиками
+- [[https://jupyter.org/][Jupyter]] --- инструмент для интерактивной работы с Python-кодом
+** R
+- [[https://www.datacamp.com/][Datacamp]] --- онлайн платформа с курсами по R, начиная с основ языка и манипуляции данными, заканчивая анализом и визуализацией
+- [[https://www.rstudio.com/][RStudio]] --- IDE для работы с R-кодом
+** MOOCS
+- [[https://www.coursera.org/browse/computer-science?languages=en][Coursera -- Computer Science]] --- набор курсов и специализаций по программированию
+- [[https://www.coursera.org/browse/data-science?languages=en][Coursera -- Data Science]] --- набор курсов и специализаций по анализу данных

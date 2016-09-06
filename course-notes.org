@@ -1,5 +1,0 @@
-* Students
-| Group | ID | Name              | Email                  | Github |
-|-------+----+-------------------+------------------------+--------|
-|       |    | Сухарев Александр | sukharevmail@gmail.com | elexus |
-|       |    |                   |                        |        |
