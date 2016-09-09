@@ -6,3 +6,7 @@
 |    312 |   | Фатима Яралиева      | fatima.yaraliyeva@gmail.com | Fatima-cmc        |
 |    312 |   | Алексей Павлов       | lexus.msu@gmail.com         | olexsha           |
 |        |   | Александр Пархоменко | a.parkhomenko@corp.mail.ru  | alex0parhomenko   |
+|    312 |   | Нуржанат Усенкызы    | nurzhadarush@gmail.com      | Nurzhanat         |
+|    312 |   | Наталья Язовская     | nataliayazovskaya@gmail.com | NataliaYazovskaya |
+|        |   | Богдан Панюхин       | bogdan.p94@gmail.com        | panyukhin         |
+
