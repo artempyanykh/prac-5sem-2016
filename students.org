@@ -1,21 +1,22 @@
 | Группа | № | Имя                  | Email                       | Github            | Приглашен | Task 0 | Task 1 | Task 2 | Task 3 | Штраф | Итог |
 |--------+---+----------------------+-----------------------------+-------------------+-----------+--------+--------+--------+--------+-------+------|
-|        |   | Сухарев Александр    | sukharevmail@gmail.com      | elexus            | +         |        |        |        |        |     0 |      |
-|    312 |   | Баранчиков Максим    | baranchikov.maxim@gmail.com | baranchikov-maxim | +         |        |        |        |        |     0 |      |
-|    312 |   | Аида Кенесова        | kenesova-2016@mail.ru       | kenessova         | +         |        |        |        |        |     0 |      |
-|    312 |   | Фатима Яралиева      | fatima.yaraliyeva@gmail.com | Fatima-cmc        | +         |        |        |        |        |     0 |      |
-|    312 |   | Алексей Павлов       | lexus.msu@gmail.com         | olexsha           | +         |        |        |        |        |     0 |      |
-|        |   | Александр Пархоменко | a.parkhomenko@corp.mail.ru  | alex0parhomenko   | +         |        |        |        |        |     0 |      |
-|    312 |   | Нуржанат Усенкызы    | nurzhadarush@gmail.com      | Nurzhanat         | +         |        |        |        |        |     0 |      |
-|    312 |   | Наталья Язовская     | nataliayazovskaya@gmail.com | NataliaYazovskaya | +         |        |        |        |        |     0 |      |
-|        |   | Богдан Панюхин       | bogdan.p94@gmail.com        | panyukhin         | +         |        |        |        |        |     0 |      |
-|        |   | Аркадий Альшан       | arkadiy.alshan@yandex.ru    | arkadiyalshan     | +         |        |        |        |    -10 |   -10 |      |
-|        |   | Никита Адамов        | nikita-adamoff@yandex.ru    | NikitaAdamov      | +         |        |        |        |    -10 |   -10 |      |
-|        |   | Игорь Пономарев      | pim_96@mail.ru              | Dviss             | +         |        |        |        |    -10 |   -10 |      |
-|        |   | Светлана Закирова    | zakirowasveta1996@mail.ru   | Sveta-27          | +         |        |        |        |    -10 |   -10 |      |
-|        |   | Константин Телегин   | konstantin_013@mail.ru      | konstantin013     | +         |        |        |        |    -10 |   -10 |      |
-|        |   | Михаил Тихонов       | tikhonya97@mail.ru          | MartinLeid        | +         |        |        |        |        |     0 |      |
-|        |   | Дарий Панков         | pnkdariy@gmail.com          | pdariy            | +         |        |        |        |        |     0 |      |
-|        |   | Виолетта Кобзева     | kobzevavm@gmail.com         | Kobzeva           | +         |        |        |        |        |     0 |      |
-|        |   | Дмитрий Пенин        | f.bartes.16@gmail.com       | penindmitry       | +         |        |        |        |        |     0 |      |
-#+TBLFM: $11=vsum($-4..$-1)
+|        |   | Сухарев Александр    | sukharevmail@gmail.com      | elexus            | +         |        |        |        |        |       |    0 |
+|    312 |   | Баранчиков Максим    | baranchikov.maxim@gmail.com | baranchikov-maxim | +         |        |        |        |        |       |    0 |
+|    312 |   | Аида Кенесова        | kenesova-2016@mail.ru       | kenessova         | +         |        |        |        |        |       |    0 |
+|    312 |   | Фатима Яралиева      | fatima.yaraliyeva@gmail.com | Fatima-cmc        | +         |        |        |        |        |       |    0 |
+|    312 |   | Алексей Павлов       | lexus.msu@gmail.com         | olexsha           | +         |        |        |        |        |       |    0 |
+|        |   | Александр Пархоменко | a.parkhomenko@corp.mail.ru  | alex0parhomenko   | +         |        |        |        |        |       |    0 |
+|    312 |   | Нуржанат Усенкызы    | nurzhadarush@gmail.com      | Nurzhanat         | +         |        |        |        |        |       |    0 |
+|    312 |   | Наталья Язовская     | nataliayazovskaya@gmail.com | NataliaYazovskaya | +         |        |        |        |        |       |    0 |
+|        |   | Богдан Панюхин       | bogdan.p94@gmail.com        | panyukhin         | +         |        |        |        |        |       |    0 |
+|        |   | Аркадий Альшан       | arkadiy.alshan@yandex.ru    | arkadiyalshan     | +         |        |        |        |        |   -10 |  -10 |
+|        |   | Никита Адамов        | nikita-adamoff@yandex.ru    | NikitaAdamov      | +         |        |        |        |        |   -10 |  -10 |
+|        |   | Игорь Пономарев      | pim_96@mail.ru              | Dviss             | +         |        |        |        |        |   -10 |  -10 |
+|        |   | Светлана Закирова    | zakirowasveta1996@mail.ru   | Sveta-27          | +         |        |        |        |        |   -10 |  -10 |
+|        |   | Константин Телегин   | konstantin_013@mail.ru      | konstantin013     | +         |        |        |        |        |   -10 |  -10 |
+|        |   | Михаил Тихонов       | tikhonya97@mail.ru          | MartinLeid        | +         |        |        |        |        |       |    0 |
+|        |   | Дарий Панков         | pnkdariy@gmail.com          | pdariy            | +         |        |        |        |        |       |    0 |
+|        |   | Виолетта Кобзева     | kobzevavm@gmail.com         | Kobzeva           | +         |        |        |        |        |       |    0 |
+|        |   | Дмитрий Пенин        | f.bartes.16@gmail.com       | penindmitry       | +         |        |        |        |        |       |    0 |
+|        |   | Артем Шестаков       | nyaawesome@gmail.com        | Aw69some          | +         |        |        |        |        |   -10 |  -10 |
+#+TBLFM: $12=vsum($-4..$-1)
