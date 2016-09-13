@@ -19,4 +19,6 @@
 |        |   | Виолетта Кобзева     | kobzevavm@gmail.com         | Kobzeva           | +         |        |        |        |        |       |    0 |
 |        |   | Дмитрий Пенин        | f.bartes.16@gmail.com       | penindmitry       | +         |        |        |        |        |       |    0 |
 |        |   | Артем Шестаков       | nyaawesome@gmail.com        | Aw69some          | +         |        |        |        |        |   -10 |  -10 |
+|    311 |   | Петр Гринько         | dragon.2707@mail.ru         | hellovmk          | +         |        |        |        |        |       |      |
+|    311 |   | Сергей Мартынов      | ru1701@mail.ru              | ru1701            | +         |        |        |        |        |       |      |
 #+TBLFM: $12=vsum($-4..$-1)
