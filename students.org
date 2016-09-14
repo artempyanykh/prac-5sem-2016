@@ -1,6 +1,6 @@
 | Группа | № | Имя                  | Email                       | Github            | Приглашен | Task 0 | Task 1 | Task 2 | Task 3 | Штраф | Итог |
 |--------+---+----------------------+-----------------------------+-------------------+-----------+--------+--------+--------+--------+-------+------|
-|        |   | Сухарев Александр    | sukharevmail@gmail.com      | elexus            | +         |        |        |        |        |       |    0 |
+|    312 |   | Сухарев Александр    | sukharevmail@gmail.com      | elexus            | +         |        |        |        |        |       |    0 |
 |    312 |   | Баранчиков Максим    | baranchikov.maxim@gmail.com | baranchikov-maxim | +         |        |        |        |        |       |    0 |
 |    312 |   | Аида Кенесова        | kenesova-2016@mail.ru       | kenessova         | +         |        |        |        |        |       |    0 |
 |    312 |   | Фатима Яралиева      | fatima.yaraliyeva@gmail.com | Fatima-cmc        | +         |        |        |        |        |       |    0 |
