@@ -27,4 +27,5 @@
 |        |   | Кирилл Саливон       | salivon689@gmail.com        | salivon689        | +         |        |        |        |        |       |    0 |
 |    311 |   | Сергей Зеленский     | ardfzelenskiyfox@gmail.com  | foxermen          | +         |        |        |        |        |       |    0 |
 |    312 |   | Мадияр Толеугали     | madike.gosu@gmail.com       | madiyarr          | +         |        |        |        |        |       |    0 |
+|    311 |   | Никита Ларичев       | niklarichev@gmail.com       | Nikonz            | +         |        |        |        |        |       |      |
 #+TBLFM: $12=vsum($-4..$-1)
