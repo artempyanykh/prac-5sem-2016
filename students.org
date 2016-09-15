@@ -1,7 +1,7 @@
 | Группа | № | Имя                  | Email                       | Github            | Приглашен | Task 0 | Task 1 | Task 2 | Task 3 | Штраф | Итог |
 |--------+---+----------------------+-----------------------------+-------------------+-----------+--------+--------+--------+--------+-------+------|
-|        |   | Сухарев Александр    | sukharevmail@gmail.com      | elexus            | +         |        |        |        |        |       |    0 |
-|    312 |   | Баранчиков Максим    | baranchikov.maxim@gmail.com | baranchikov-maxim | +         |        |        |        |        |       |    0 |
+|        |   | Александр Сухарев    | sukharevmail@gmail.com      | elexus            | +         |        |        |        |        |       |    0 |
+|    312 |   | Максим Баранчиков    | baranchikov.maxim@gmail.com | baranchikov-maxim | +         |        |        |        |        |       |    0 |
 |    312 |   | Аида Кенесова        | kenesova-2016@mail.ru       | kenessova         | +         |        |        |        |        |       |    0 |
 |    312 |   | Фатима Яралиева      | fatima.yaraliyeva@gmail.com | Fatima-cmc        | +         |        |        |        |        |       |    0 |
 |    312 |   | Алексей Павлов       | lexus.msu@gmail.com         | olexsha           | +         |        |        |        |        |       |    0 |
@@ -19,6 +19,12 @@
 |        |   | Виолетта Кобзева     | kobzevavm@gmail.com         | Kobzeva           | +         |        |        |        |        |       |    0 |
 |        |   | Дмитрий Пенин        | f.bartes.16@gmail.com       | penindmitry       | +         |        |        |        |        |       |    0 |
 |        |   | Артем Шестаков       | nyaawesome@gmail.com        | Aw69some          | +         |        |        |        |        |   -10 |  -10 |
-|    311 |   | Петр Гринько         | dragon.2707@mail.ru         | hellovmk          | +         |        |        |        |        |       |      |
-|    311 |   | Сергей Мартынов      | ru1701@mail.ru              | ru1701            | +         |        |        |        |        |       |      |
+|    311 |   | Петр Гринько         | dragon.2707@mail.ru         | hellovmk          | +         |        |        |        |        |       |    0 |
+|    311 |   | Сергей Мартынов      | ru1701@mail.ru              | ru1701            | +         |        |        |        |        |       |    0 |
+|    311 |   | Андрей Раренко       | andrejj97@rambler.ru        | andrejjka97       | +         |        |        |        |        |       |    0 |
+|    312 |   | Сергей Ананьев       | ananev-serg@mail.ru         | sirgrey161        | +         |        |        |        |        |       |    0 |
+|    312 |   | Михаил Тутов         | mishatutov@mail.ru          | nenik234          | +         |        |        |        |        |       |    0 |
+|        |   | Кирилл Саливон       | salivon689@gmail.com        | salivon689        | +         |        |        |        |        |       |    0 |
+|    311 |   | Сергей Зеленский     | ardfzelenskiyfox@gmail.com  | foxermen          | +         |        |        |        |        |       |    0 |
+|    312 |   | Мадияр Толеугали     | madike.gosu@gmail.com       | madiyarr          | +         |        |        |        |        |       |    0 |
 #+TBLFM: $12=vsum($-4..$-1)
