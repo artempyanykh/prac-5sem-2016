@@ -8,7 +8,7 @@
 |        |   | Александр Пархоменко | a.parkhomenko@corp.mail.ru  | alex0parhomenko   | +         |        |        |        |        |       |    0 |
 |    312 |   | Нуржанат Усенкызы    | nurzhadarush@gmail.com      | Nurzhanat         | +         |        |        |        |        |       |    0 |
 |    312 |   | Наталья Язовская     | nataliayazovskaya@gmail.com | NataliaYazovskaya | +         |        |        |        |        |       |    0 |
-|        |   | Богдан Панюхин       | bogdan.p94@gmail.com        | panyukhin         | +         |        |        |        |        |       |    0 |
+|   312  |   | Богдан Панюхин       | bogdan.p94@gmail.com        | panyukhin         | +         |        |        |        |        |       |    0 |
 |        |   | Аркадий Альшан       | arkadiy.alshan@yandex.ru    | arkadiyalshan     | +         |        |        |        |        |   -10 |  -10 |
 |        |   | Никита Адамов        | nikita-adamoff@yandex.ru    | NikitaAdamov      | +         |        |        |        |        |   -10 |  -10 |
 |        |   | Игорь Пономарев      | pim_96@mail.ru              | Dviss             | +         |        |        |        |        |   -10 |  -10 |
