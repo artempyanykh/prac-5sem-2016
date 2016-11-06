@@ -1,7 +1,38 @@
 #+TITLE: Задание 1. Список репозиториев
 
-| Группы      | Фио            | Ссылка на репозиторий                          |
-|-------------+----------------+------------------------------------------------|
-| Пример: xxx | Иван Иванов    | https://github.com/ivan-the-terrible/prac-io-0 |
-|-------------+----------------+------------------------------------------------|
-| 311         | Никита Ларичев | https://github.com/Nikonz/prac-io-0            |
+|      Группы | Фио                  | Ссылка на репозиторий                          |
+|-------------+----------------------+------------------------------------------------|
+| Пример: xxx | Иван Иванов          | https://github.com/ivan-the-terrible/prac-io-0 |
+|-------------+----------------------+------------------------------------------------|
+|         311 | Никита Ларичев       | https://github.com/Nikonz/prac-io-0            |
+|         311 | Никита Адамов        | https://github.com/NikitaAdamov/prac-io-0      |
+|         311 | Аркадий Альшан       | https://github.com/arkadiyalshan/prac-io-0     |
+|         312 | Наталья Язовская     | https://github.com/NataliaYazovskaya/prac-io-0 |
+|         312 | Сергей Ананьев       | https://github.com/sirgrey161/prac-io-0        |
+|         311 | Сергей Зеленский     | https://github.com/foxermen/prac-io-0          |
+|         312 | Светлана Закирова    | https://github.com/Sveta-27/prac-io-0          |
+|         312 | Михаил Тутов         | https://github.com/nenik234/prac-io-0          |
+|         311 | Андрей Раренко       | https://github.com/andrejjka97/prac-io-0       |
+|         312 | Дарий Панков         | https://github.com/pdariy/prac-io-0            |
+|         312 | Богдан Панюхин       | https://github.com/panyukhin/prac-io-0         |
+|         312 | Константин Телегин   | https://github.com/konstantin013/io-16-1       |
+|         311 | Петр Гринько         | https://github.com/hellovmk/prac-io-0          |
+|         312 | Мадияр Толеугали     | https://github.com/madiyarr/prac-io-0          |
+|         311 | Дмитрий Пенин        | https://github.com/penindmitry/prac-io-0       |
+|         312 | Александр Сухарев    | https://github.com/elexus/prac-io-0            |
+|         312 | Игорь Пономарев      | https://github.com/dviss/prac-io-0             |
+|         311 | Виолетта Кобзева     | https://github.com/KobzevaVM/io-16-1           |
+|         311 | Александр Пархоменко | https://github.com/alex0parhomenko/io-16       |
+|         312 | Фатима Яралиева      | https://github.com/Fatima-cmc/prac-io-0        |
+|         312 | Нуржанат Даруш       | https://github.com/Nurzhanat/prac-io-0         |
+|         312 | Аида Кенессова       | https://github.com/kenessova/io-16-1           |
+|         312 | Алексей Павлов       | https://github.com/olexsha/prac-io-0           |
+|         312 | Максим Баранчиков    | https://github.com/baranchikov-maxim/prac-io-0 |
+|         311 | Сергей Мартынов      | https://github.com/ru1701/prac-io-0            |
+|         311 | Богдан Гриценко      | https://github.com/gribon/prac-io-0            |
+|             | Артем Шестаков       | https://github.com/Aw69some/prac-io-0          |
+|         312 | Кирилл Саливон       | https://github.com/salivon689/prac-io-0        |
+|         312 | Михаил Тихонов       | https://github.com/MartinLeid/prac-io-0                                                |
+
+
+
