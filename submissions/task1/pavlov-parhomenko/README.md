@@ -27,7 +27,7 @@
 
 
 ## Необходимое ПО:
-**Jupyter Notebook**, библиотеки **NumPy**, **SciPy**, **matplotlib** для Python
+**Jupyter Notebook**, библиотеки **NumPy**, **SciPy**, **matplotlib**, **unittest** для Python
 
 ## Инструкция по запуску первой части:
 Перейти в директорию с файлом nash_equilibrium.py
