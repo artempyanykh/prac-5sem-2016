@@ -32,7 +32,7 @@
 |         311 | Богдан Гриценко      | https://github.com/gribon/prac-io-0            |
 |             | Артем Шестаков       | https://github.com/Aw69some/prac-io-0          |
 |         312 | Кирилл Саливон       | https://github.com/salivon689/prac-io-0        |
-|         312 | Михаил Тихонов       | https://github.com/MartinLeid/prac-io-0                                                |
+|         312 | Михаил Тихонов       | https://github.com/MartinLeid/prac-io-0        |                                          
 
 
 
