@@ -1,4 +1,4 @@
-#+TITLE: Практикум 3 курс. Осень 16-17
+#+TITLE: Практикум 3 курс. Осень 16 - Весна 17
 #+AUTHOR: Артем Пьяных
 #+LATEX_HEADER: \usepackage[T2A]{fontenc}
 #+LATEX_HEADER: \usepackage[english, russian]{babel}
