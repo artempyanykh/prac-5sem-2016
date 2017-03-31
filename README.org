@@ -71,6 +71,7 @@
 - [[./tasks/task1.org][Задание 1]]
 - [[./tasks/task2.org][Задание 2]]
 - [[./tasks/task3.md][Задание 3]]
+- [[./tasks/task4.md][Задание 4]]
 
 * Полезные ресурсы
 ** Python
