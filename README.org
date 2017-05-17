@@ -5,6 +5,8 @@
 #+LANGUAGE: ru
 #+OPTIONS: ':t toc:2
 
+ Рейтинг за весну 2017г. может быть найден на [[https://docs.google.com/spreadsheets/d/1UyeHOhgeEDiiD95qF9lN1Rwlfnk_MmJXrRSyb6eu4gY/pubhtml][следующей странице]].
+
  Рейтинг за осень 2016г. может быть найден на [[https://docs.google.com/spreadsheets/u/1/d/1LQj7f4RxZt14Z0TwgXMSyc3k2nr0HK6vylCSEJUpYOY/pubhtml][следующей странице]].
 
 * Цель курса
