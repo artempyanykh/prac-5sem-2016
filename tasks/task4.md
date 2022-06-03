@@ -1,34 +1,39 @@
-# Практикум 3 курс. Весна 16-17. Задание 4
-## Мечи залива работорговцев
+# Assignment 4. Intro to modern programming tools and techniques. Fall '16 - Spring '17
+## Swords of Slaver's Bay
 
-После оглушительного успеха в освобождении Астапора, Миэрина и Юнкая от власти работорговцев Дейенерис Бурерожденная открыла себе доступ к Летнему морю, а следовательно -- путь в Вестерос.
+After a resoundingly successful liberation of Astapor, Meereen, and Yunkai from Slaver Alliance, Daenerys Stormborn got access to the Summer Sea and hence a path to Westeros.
 
-Для ведения войны с Семью Королевствами нужно оружие, я для оружия нужна сталь.
-Нет никаких сомнений в кузнечном искусстве Безупречных, однако поставщики стали не столь надежны.
+To wage war against the Seven Kingdoms one needs weapons and weapons need steel.
+Although, there's no doubt in the skill of Unsullied smiths, suppliers of steel are not that reliable.
 
-Два основных поставщика стали -- это Westeros Inc. и Harpy & Co.
-На протяжении нескольких месяцев мы закупаем сталь у обеих компаний, и каждая из них предлагает ощутимую скидку при заключении эксклюзивного договора на поставку.
+Two main suppliers of steel of Westeros Inc. and Harpy & Co. For several months we've been buying steel from both
+companies. However, each company offers a significant discount for switching to an exclusive contract.
 
-Советник королевы Тирион Ланнистер знает о твоем умении принимать взвешенные рациональные решения и просит помощи в объективном решении вопроса о том, с какой из компаний следует заключить эксклюзивный договор на поставку стали.
+Queen's adviser - Tyrion Lannister - knows about your talent in data-driven decision making and asks you to help him
+choose which supplier to sign an exclusive contract with.
 
-У Тириона есть записи о производстве мечей каждым из кузнецов-безупречных, а также данные о количестве сломанных мечей в каждый из месяцев ведения боевых действий.
+Tyrion has records of swords produced by Unsullied smiths and also records of swords broken during each month of war.
 
-## Исходные данные
-Вам дан [CSV-файл](task4/production-data.csv) с данными о производстве оружия и количестве единиц сломанного оружия за каждый месяц каждым из кузнецов.
+## Input
+You have a [CSV-file](task4/production-data.csv) with the data about the number of produced and broken swords by each Unsullied smith per month.
 
-## Цель
-Необходимо провести [разведывательный анализ данных](https://en.wikipedia.org/wiki/Exploratory_data_analysis) с целью ответа на вопрос: "С каким из поставщиков стали следует заключить договор?"
+## Objective
+You need to do an [exploratory data analysis](https://en.wikipedia.org/wiki/Exploratory_data_analysis) in order to determine: **"Which supplier of steel Tyrion should sign an exclusive contract with?"**.
 
-Основные моменты:
+## What needs to be done
 
-1. Код должен быть оформлен в виде **Python notebook** в файле `analysis.ipynb`.
-2. Результаты анализа и ваши выводы должны быть оформлены в виде презентации средствами `latex` и `beamer`.
-3. Исходный код презентации должен быть в файле `presentation.tex`, ее отрендеренный вариант -- в файле `presentation.pdf`.
+1. Your analysis should be done in a **Python notebook** in file `analysis.ipynb`.
+2. Intermediate results of your analysis and your conclusion must be prepared in a form of a presentation created in
+   `latex` using `beamer`.
+3. Source code of the presentation should be in a file `presentation.tex`. You must also attach a rendered presentation
+   in a `presentation.pdf` file.
 
-## Сдача
-Задание **должно** выполняться группой из 3 человек.
-Процесс стандартный и описан в `README.org`.
+## Submission
+The assignment **must** be done by a group of 3.
+The process is described in [README](../README.org#submission-rules).
 
-## Сроки
-Задание должно быть сдано до **21 апреля 2017г.**
-Первая серия исправлений применяется без штрафа, после второй и далее серии исправлений задание может быть засчитано только на половину балла.
+## Dates
+
+* The PR should be submitted before **21 Apr 2016**.
+* First round of review and re-submission does not affect the grading.
+* Second and further rounds of review halve the maximum grade.

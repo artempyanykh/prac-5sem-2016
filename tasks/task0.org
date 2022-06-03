@@ -1,12 +1,12 @@
-#+TITLE: Практикум 3 курс. Осень 16-17. Задание 0
+#+TITLE: Assignment 0. Intro to modern programming tools and techniques. Fall '16 - Spring '17
 
-* Описание
-Создать собственный репозиторий с именем `prac-io-0`.
-Данный репозиторий должен содержать любую по сложности рабочую программу (хоть ~Hello World~), написанную на любом языке программирования.
+* Description
+Create your own repository named `prac-io-0`.
+This repository should contain a working program of any complexity (even ~Hello World~ will do) written in any language.
 
-* Сдача
-Создать Pull Request, в котором Вы вносите информацию о репозитории с заданием в файл [[../submissions/task0/repos.org][submissions/task0/repos.org]] (см. файл для примера, под информацией понимается соответствующая строчка в таблице).
+* Submission
+Create a Pull Request adding the information about the repository you created into [[../submissions/task0/repos.org][submissions/task0/repos.org]] file.
 
-* Cроки
-- Сдача до 18 сентября 2016г.
-- Прохождение ревью до 25 сентября 2016г.
+* Dates
+- Submit before 18 Sep 2016.
+- Pass review until 25 Sep 2016.

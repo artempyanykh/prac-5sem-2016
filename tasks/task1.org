@@ -1,61 +1,54 @@
-#+TITLE: Практикум 3 курс. Осень 16-17. Задание 1
+#+TITLE: Assignment 1. Intro to modern programming tools and techniques. Fall '16 - Spring '17
 #+OPTIONS: toc:nil
 
-* Описание
-  *Задание 1* состоит в численном решении антагонистической матричной игры.
-  В рамках данного задания мы:
-  - напишем код, решающий матричную игру путем сведения ее к паре двойственных задач линейного программирования [fn:or],
-  - проиллюстрируем работу данного кода путем визуализации спектров оптимальных стратегий,
-  - /(опционально)/ напишем автоматические тесты для нашего решения.
+* Description
+The goal of **assignment 1** is to write a program solving a zero-sum game in the matrix form.
+As part of the assignment you:
+- Will write code that finds a solution to a game by reducing it to a pair of dual linear programming problems [fn:or].
+- Show how you solution works by visualizing spectres of optimal strategies.
+- /(optional)/ Write automatic tests for you program.
 
-  Цель *задания 1* заключается в том, чтобы познакомиться с языком программирования *Python*, библиотекой *SciPy*, интерактивной средой разработки *Jupyter* и, по желанию, с системой тестирования *Nose*.
+The main objective of **assignment 1** is to get you familiar with *Python* programming language, *SciPy* library, *Jupyter* interactive development environment, and optionally with unit testing library *Nose*.
 
-  Формально, задача заключается в следующем:
-  1. /(50 баллов)/ Необходимо написать функция ~nash_equilibrium(a)~, которая принимает матрицу выигрыша и возвращает значение игры и оптимальные стратегии первого и второго игроков.
-  2. /(50 баллов)/ Проиллюстрировать работу вашего кода путем решения нескольких игр и визуализации спектров оптимальных стратегий игроков в Jupyter.
-     В частности, нужно привести игры, в которых:
-     1. спектр оптимальной стратегии состоит из одной точки (т.е. существует равновесие Нэша в чистых стратегиях),
-     2. спектр оптимальной стратегии неполон (т.е. некоторые чистые стратегии не используются),
-     3. спектр оптимальной стратегии полон.
-  3. /(10 баллов)/ Оформить ваше решение в виде пакета [fn:packaging].
-  4. /(20 баллов)/ Написать unit-тесты для функции ~nash_equilibrium~ [fn:testing].
-  
-  Пункты 3 и 4 опциональны и позволяют получить экстра-баллы тем, кому они нужны.
+When it comes to *grading*:
+1. /(50 poins)/ Write a function ~nash_equilibrium(a)~ that takes as an input a payoff matrix and returns game's value and optimal strategies of both players.
+2. /(50 points)/ Demonstrate how you program works by visualizing the spectres of optimal strategies for several sample games in Jupyter.
+   In particular, your sample games should exibit at least:
+   1. An optimal strategy that is pure (i.e. its spectre has only 1 point).
+   2. An optimal strategy that has a partial spectre (i.e. some pure strategies are not used).
+   3. An optimal strategy with a full spectre (i.e. all pure strategies are used).
+3. /(10 points)/ Package your solution [fn:packaging].
+4. /(20 points)/ Write unit tests for ~nash_equilibrium~ [fn:testing].
 
-  В качестве примера, антагонистическая матричная игра со следующей матрицей выигрышей
+Items 3 and 4 are optional and will give extra points to those who needs them.
 
-  #+BEGIN_EXAMPLE
-  |  4 | 0 | 6 |  2 |  2 | 1 |
-  |  3 | 8 | 4 | 10 |  4 | 4 |
-  |  1 | 2 | 6 |  5 |  0 | 0 |
-  |  6 | 6 | 4 |  4 | 10 | 3 |
-  | 10 | 4 | 6 |  4 |  0 | 9 |
-  | 10 | 7 | 0 |  7 |  9 | 8 |
-  #+END_EXAMPLE
-  
-  имеет значение ~151/31~ и оптимальные стратегии игроков
-  #+BEGIN_EXAMPLE
-  | p || 0 | 4/31 | 3/31    | 27/62 | 21/62  |    0 |
-  | q || 0 |    0 | 257/372 | 9/62  | 55/372 | 1/62 |
-  #+END_EXAMPLE
+As an example, consider a zero-sum game with the following payoff matrix:
 
-  Визуализация спектров оптимальных стратегий выглядит следующим образом:
+#+BEGIN_EXAMPLE
+|  4 | 0 | 6 |  2 |  2 | 1 |
+|  3 | 8 | 4 | 10 |  4 | 4 |
+|  1 | 2 | 6 |  5 |  0 | 0 |
+|  6 | 6 | 4 |  4 | 10 | 3 |
+| 10 | 4 | 6 |  4 |  0 | 9 |
+| 10 | 7 | 0 |  7 |  9 | 8 |
+#+END_EXAMPLE
 
-  [[./task1/first-player-support.png]]
+Its value is ~151/31~ and players' optimal strategies are:
+#+BEGIN_EXAMPLE
+| p || 0 | 4/31 | 3/31    | 27/62 | 21/62  |    0 |
+| q || 0 |    0 | 257/372 | 9/62  | 55/372 | 1/62 |
+#+END_EXAMPLE
 
-  [[./task1/second-player-support.png]]
-* Сдача
-  Задание *должно* выполняться группой из 2х человек.
-  Процесс стандартный, и описан в ~README.org~, секция [[file:~/Dropbox/@Science/Duties/Practicum/16-17/grade-3/README.org::#submission-rules][Выполнение и сдача заданий]].
+Visualization of optimal strategies should look like this:
 
-* Cроки
-- Сдача до 11 ноября 2016г.
-- Прохождение ревью до 15 ноября 2016г.
+[[./task1/first-player-support.png]]
 
-* Footnotes
+[[./task1/second-player-support.png]]
 
-[fn:or] См. Васин А.А., Краснощеков П.С., Морозов В.В. /Исследование операций/ - М.: Издательский центр "Академия".
+* Submissions
+The assignment *must* be done by a group of 2.
+The process is described in ~README.org~, section [[file:~/dev/cmc-courses/prac-2017-2018/README.org::#submission-rules][Submission rules]].
 
-[fn:packaging] Читайте официальную [[https://python-packaging.readthedocs.io/en/latest/][документацию]].
-
-[fn:testing] См. [[http://pythontesting.net/framework/nose/nose-introduction/][введение]] в тестирование с помощью библиотеки *nose*.
+* Dates
+- Submit before 11 Nov 2016.
+- Pass review before 15 Nov 2016.

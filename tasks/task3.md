@@ -1,67 +1,68 @@
-# Практикум 3 курс. Весна 16-17. Задание 3
+# Assignment 3. Intro to modern programming tools and techniques. Fall '16 - Spring '17
 
-## Описание
-**Applepen** -- это большая торговая сеть, которая занимается продажей всего двух продуктов: **яблок** и **карандашей**.
-Ее магазины расположены в различных уголках Соединенных Штатов и более 10 лет обслуживают покупателей.
+## Description
 
-Недавно топ-менеджмент компании решил более активно использовать имеющиеся у них данные в принятии решений.
-Каждый магазин собирает информацию о:
+**Applepen** is a large retail chain that sells two types of products: **apples** and **pens**.
+The stores are located in various parts of the US and is serving customers for more than 10 years.
 
-1. закупках (поставки яблок и карандашей два раза в месяц),
-2. продажах (лог транзакций, по записи на каждую проданную позицию),
-3. инвентарь (месячные данные общего количества яблок и карандашей на складе).
+Recently, its top management decided to more actively use their sales data for decision making.
+Each store collect the following information:
+1. Procurement (apples and pens are procured twice a month).
+2. Sales (transaction log, a record per sold item).
+3. Inventory (monthly running total of apples and pens in stock).
 
-Данные доступны в формате CSV.
-Внутри файла данные отсортированы по дате.
+The data is available in CSV format. Within the file data is sorted by date.
 
-К сожалению, данные никогда не консолидировались и не проверялись.
-Нам необходимо получить следующие данные в CSV-файлах.
+However, the data was never consolidated neither it was checked. Therefore, we need to get the following information.
 
-### 1. Состояние склада на каждый день
-Данные о состоянии склада в конце каждого дня после того как все поставки и продажы были совершены.
-Подобная информация будет очень ценна менеджерам магазинов.
-Состояние склада должно строится на основне месячных данных об инвентаре.
-Известно, что люди воруют из магазинов, но сейчас нет никакой возможности узнать объем сворованного товара.
+### 1. Inventory for each day
+We need inventory data for each day at the end of the day after all sales and procurement have been completed. This
+data will be very valuable for store managers.
 
-Данные должны быть в следующем виде:
-
-|date|apple|pen|
-|---|---|---|
-|2006-01-01|14105|770|
-|...|||
-
-### 2. Месячные данные о количестве сворованного товара
-
-Данные должны быть в следующем виде:
-
-|date|apple|pen|
-|---|---|---|
-|2006-01-31|4|4|
-|2006-02-28|5|0|
-|...|||
+The inventory should be calculated based on the monthly totals. There's always some percent of stolen goods, but
+currently there's no way to find out how many items were stolen exactly.
 
 
-### 3. Агрегированные данные об объемах продаж и количестве сворованной продукции по штату и году
+The data should be in the following format:
 
-Данные должны быть в следующем виде:
+| date       | apple | pen |
+|------------|-------|-----|
+| 2006-01-01 | 14105 | 770 |
+| ...        |       |     |
 
-|year|state|apple_sold|apple_stolen|pen_sold|pen_stolen|
-|---|---|---|---|---|---|
-|2006|AK|4|2|2|1
-|2007|AL|5|0|6|2|
-|...||||||
+### 2. Amount of stolen goods per month
 
-## О выполнении задания
-Можно использовать любые инструменты и языки программирования, будь-то Python и локальная обработка файлов, или JavaScript и GoogleCloud.
-Задание должно выполняться группой из 3х-4х человек.
-Процесс стандартный и описан в `README.org`.
+The data should be in the following format:
 
-Каждой группе будет выдан свой набор данных.
-Набор входных и выходных данных для тестирования вашего решения доступен по следующей ссылке: https://console.cloud.google.com/storage/browser/artem-pyanykh-cmc-prac-task3-seed17
+| date       | apple | pen |
+|------------|-------|-----|
+| 2006-01-31 | 4     | 4   |
+| 2006-02-28 | 5     | 0   |
+| ...        |       |     |
 
-Рекомендуется освоить пакет консольных инструментов [gcloud](https://cloud.google.com/sdk/gcloud/) и использовать команду `gsutil` для доступа к данным в Google Storage.
 
-### Сроки
+### 3. Aggregated number of sold and stolen goods per year/state
 
-* Сдача до 19 марта 2017г.
-* Прохождение ревью до 1 апреля 2017г.
+The data should be in the following format:
+
+| year | state | apple_sold | apple_stolen | pen_sold | pen_stolen |
+|------|-------|------------|--------------|----------|------------|
+| 2006 | AK    | 4          | 2            | 2        |            |
+| 2007 | AL    | 5          | 0            | 6        | 2          |
+| ...  |       |            |              |          |            |
+
+## Submission
+You can use any programming languages and tools.
+The assignment must be completed by a group of 3 to 4.
+The process is described in [README](../README.org#submission-rules).
+
+The set of input and output data to test your solution is available at:
+https://console.cloud.google.com/storage/browser/artem-pyanykh-cmc-prac-task3-seed17
+
+We recommend you getting familiar with [gcloud](https://cloud.google.com/sdk/gcloud/) command line tools and use `gsutil` to access data in Google Storage.
+
+### Dates
+
+* Submit before 19 March 2016.
+* Pass review before 1 Apr 2016.
+
