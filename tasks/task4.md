@@ -34,6 +34,6 @@ The process is described in [README](../README.org#submission-rules).
 
 ## Dates
 
-* The PR should be submitted before **21 Apr 2016**.
+* The PR should be submitted before **21 Apr 2017**.
 * First round of review and re-submission does not affect the grading.
 * Second and further rounds of review halve the maximum grade.
